@@ -1,0 +1,16 @@
+.bannerCard {
+    height: 20vh;
+    background-image: url("https://a.cdn-hotels.com/gdcs/production114/d1461/2267d2c2-21e8-4964-bed0-f5bb480def60.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+    background-color: black;
+}
+
+.bannerHeading {
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.bannerText {
+    text-align: center;
+    color: white;
+}

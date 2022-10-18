@@ -1,0 +1,29 @@
+.social-container {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1a9eeb;
+    color: white;
+}
+
+.touch-box {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 50%;
+    text-decoration: none;
+}
+
+.asocial {
+    text-decoration: none;
+    color: white;
+}

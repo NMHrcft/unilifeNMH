@@ -1,0 +1,8 @@
+.header-container{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a9eeb;
+   
+}
