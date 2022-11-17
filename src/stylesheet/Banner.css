@@ -1,16 +1,31 @@
 .bannerCard {
-    height: 20vh;
-    background-image: url("https://a.cdn-hotels.com/gdcs/production114/d1461/2267d2c2-21e8-4964-bed0-f5bb480def60.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+    height: 40vh;
+    display: flex;
+    background-image: url('../assets/cover-img.png');
     background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    filter: brightness(60%);
 }
 
 .bannerHeading {
-    padding-top: 10%;
     text-align: center;
     color: white;
+    font-size: 56px;
+    font-weight: 400;
+    width:70%;
+    margin-bottom: 40px;
 }
 
 .bannerText {
     text-align: center;
     color: white;
+    font-size: 24px;
+    width:75%;
+    
 }

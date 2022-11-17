@@ -1,5 +1,9 @@
 import React from 'react'
 import '../stylesheet/Social.css'
+import {MdFacebook} from "react-icons/md"
+import {FaTwitter} from "react-icons/fa"
+import {FaInstagram} from "react-icons/fa"
+
 
 function Social() {
   return (
@@ -10,9 +14,9 @@ function Social() {
         </div>
         <div className='social-box'>
           <h1>Lets Socialize</h1>
-          <a href="/facebook" className='asocial'>Facebook</a>
-          <a href="/Twitter" className='asocial'>Twitter</a>
-          <a href="/instagram" className='asocial'>Instagram</a>
+          <a href="/facebook" className='asocial'><MdFacebook />Facebook</a>
+          <a href="/Twitter" className='asocial'><FaTwitter />Twitter</a>
+          <a href="/instagram" className='asocial'><FaInstagram />Instagram</a>
 
     </div>
     </div>

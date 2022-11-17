@@ -6,3 +6,26 @@
     background-color: #1a9eeb;
    
 }
+
+.header-right {
+    display: flex;
+    
+}
+.unilife-link {
+    color: black;
+}
+
+.header-right {
+    display: flex;
+    
+}
+.shortlist {
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+
+}
+.contactus {
+    border: none;
+    background-color: transparent;
+}
