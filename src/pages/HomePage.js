@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import '../stylesheet/HomePage.css'
 import axios from 'axios'
+import TopCities from '../components/TopCities.js'
 
 
 function HomePage() {
@@ -15,11 +16,13 @@ useEffect(() => {
   
   return (
     <div className='homepage-container'>
+        <div className='city-container'>
       {
-        topCities.map(item=>{
-          return <p>{item.name}</p>
+        topCities?.map(item=>{
+          return <TopCities data={item} />
         })
       }
+      </div>
     </div>
   )
 }

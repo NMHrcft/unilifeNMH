@@ -1,8 +1,15 @@
 import React from 'react'
 
-function TopCities() {
+function TopCities({data}) {
+
+  const baseUrl="https://unilife-server.herokuapp.com"
+
+const imageStyle={
+  backgroundImage: `url("")`
+}
+
   return (
-    <div>TopCities</div>
+    <div>{data.name}</div>
   )
 }
 
