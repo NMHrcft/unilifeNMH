@@ -1,15 +1,21 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import axios from 'axios';
+import '../stylesheet/TopCities.css'
+
 
 function TopCities({data}) {
 
-  const baseUrl="https://unilife-server.herokuapp.com"
+  
 
 const imageStyle={
-  backgroundImage: `url("")`
+  backgroundImage: `url('${data.image_url}')`,
+  
+
 }
 
   return (
-    <div>{data.name}</div>
+    <div className='topCityCards' style={imageStyle}>{data.name}</div>
+    
   )
 }
 

@@ -11,7 +11,9 @@ import CityCard from './components/CityCard';
 
 
 function App() {
-  const baseUrl="https://unilife-server.herokuapp.com"
+
+  const baseUrl = 'https://unilife-server.herokuapp.com/'
+  
   return (
     <div>
     <BrowserRouter>

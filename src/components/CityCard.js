@@ -1,9 +1,9 @@
 import React from 'react'
 import '../stylesheet/CityCard.css'
 
-function CityCard() {
+function CityCard({item, index}) {
   return (
-    <div>CityCard</div>
+   <p>CityCard</p>
   )
 }
 
